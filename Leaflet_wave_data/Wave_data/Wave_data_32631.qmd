@@ -1,0 +1,51 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.26.3-Buenos Aires">
+  <identifier>Wave</identifier>
+  <parentidentifier></parentidentifier>
+  <language>EN</language>
+  <type>dataset</type>
+  <title>Wave</title>
+  <abstract>Wave data supplied by the Met Office on behalf of BERR for the Atlas of UK Marine Renewable Energy Resources project. This layer contains the primary wave data attributes from the Atlas database. This dataset includes information about Significant Wave Heights and Full Wave Field Power for the area of the UK Continental Shelf. All data recorded 2001 to 2008. For further information please refer to 2008 Renewable Atlas technical report available from http://www.renewables-atlas.info/. -------------- Further information regarding attribute headings and units is attached as binary enclosure which can be extracted using the metadata properties button in ESRI ArcCatalog or downloaded as a text file from the metadata page of http://www.renewables-atlas.info/.
+
+</abstract>
+  <contact>
+    <contactAddress>
+      <type></type>
+      <address>Suite B, Waterside House, Town Quay</address>
+      <city>Southampton</city>
+      <administrativearea>Hampshire</administrativearea>
+      <postalcode>SO14 2AQ</postalcode>
+      <country>gb</country>
+    </contactAddress>
+    <name>Data Team</name>
+    <organization>ABP Marine Environmental Research Ltd</organization>
+    <position>GIS &amp; Data Management</position>
+    <voice>+44 (0)23 8033 8100</voice>
+    <fax></fax>
+    <email>enquires@abpmer.co.uk</email>
+    <role></role>
+  </contact>
+  <links>
+    <link type="Internet" size="" format="" mimeType="" name="Shapefile" url="http://www.renewables-atlas.info/" description=""/>
+  </links>
+  <history>The majority of the wave data is generated from the Met Office UK Waters Wave Model which provides coverage over the major part of the UKCS, with the exception of outer shelf areas which has been supplied form the Met Office Global Wave model which has a resolution of 1/9° latitude by 1/6° longitude (approximately 11km in mid-latitudes). The UK Waters Wave Model became operational in June 2000 and has an archive of results stored at hourly intervals from approximately the last 7 years. The wave models are based on a second generation spectral scheme (Golding, 1983) which can typically resolve waves with periods between 3 and 25 seconds, and deep-water wavelengths from 15 to 975m. The models are forced using the wind field 10m above mean sea-level derived by the Met Office atmospheric models, which assimilate observational data from satellite, ship and met buoy networks. It is the wind strength, duration and direction that defines the frequency and directional bins in which energy is transferred to the wave model through the process of 'wind-sea' growth. Parameterisations of the wind-sea spectral peaked-ness and peak frequency are used to select an appropriate member of the JONSWAP family of spectra to represent the growing 'wind-sea'</history>
+  <fees></fees>
+  <constraints type="Limitations of use">Data Licence: THIS IS A LICENCE AGREEMENT BETWEEN THE DEPARTMENT OF BUSINESS, ENTERPRISE AND REGULATORY REFORM ("LICENSOR") AND YOU ("Licensee") YOU MUST READ AND ACCEPT ALL THE TERMS AND CONDITIONS SET OUT BELOW BEFORE YOU USE THE DATA. BY USING THE DATA, YOU (AN INDIVIDUAL OR LEGAL ENTITY) AGREE WITH THE LICENSOR TO BECOME THE LICENSEE TO THIS LICENCE AGREEMENT AND CONSENT TO BE BOUND BY ALL OF ITS TERMS. IF YOU DO NOT AGREE TO ALL OF THE TERMS OF THIS LICENCE AGREEMENT, DO NOT USE THE DATA. 1. Grant of Licence. 1.1. By using the Data the Licensor grants you ("the Licensee") a non-exclusive, non-transferable limited licence to use the accompanying Atlas of UK Marine Renewable Energy Resources Data sets including without limitation the Met Office and Proudman Oceanographic Laboratory data forming part of the content, electronic documentation (if applicable) strictly in accordance with the terms and conditions of this Licence Agreement. 1.2. The Licensee must ensure that the copyright notice of the Licensor is duplicated as it appears in or on the Data on all authorised copies. The Licensee must not assign or transfer this Licence Agreement to any third party. The Licensee shall destroy the Data and all upgrades (if any) or copies in its possession promptly upon termination of this Licence Agreement or discontinuance of the licence granted, for whatever reason. 1.3. The Data is provided 'as is' without any warranty of any kind either express or implied including but not limited to the implied warranties of satisfactory quality or fitness for a particular purpose. 1.4. The express terms of this Licence Agreement are in lieu of all warranties, conditions, undertakings, terms and obligations implied by statute, common law, trade usage, course of dealing or otherwise all of which are excluded to the fullest extent permitted by law. 1.5. The Licensor does not warrant that the Data will be error-free or that such errors will be corrected and the Licensee is solely responsible for all costs and expenses associated with rectification, repair or damage caused by such errors. 1.6. Except for death or personal injury arising from the Licensor's negligence, the Licensor excludes and disclaims all liability for any loss or damage whatsoever or howsoever caused arising directly or indirectly in connection with this Licence Agreement, the Data, its use or otherwise. The Licensor expressly excludes liability for indirect, special, incidental or consequential loss or damage (including without limitation loss of profits or business) howsoever caused even if advised of the possibility of such damages. Notwithstanding the foregoing, in the event the Licensee incurs any liability whatsoever under this Licence Agreement, such liability is limited to the licence fee paid by the Licensee for the Data. 2. Ownership of the Data 2.1. The Licensor shall at all times remain the owners of their respective intellectual property and like proprietary rights subsisting in or used in connection with the Data (including without limitation copyrights and database rights). 2.2. The Licensor may terminate this Licence Agreement at any time if the Licensee is in breach of any of the terms and conditions of this Licence Agreement. The Licensee may terminate this Licence Agreement at any time by destroying the Data and all copies of it. If the Licensor notifies the Licensee of such termination, the Licensee shall comply with the provisions of this Licence Agreement. 2.3. The Crown owns the intellectual property rights in the Met Office and Proudman Oceanographic Laboratory Data which form part of the Data set. The Licensee shall not have any rights or interests in the Met Office or Proudman Oceanographic Laboratory Data other than as described in this Licence Agreement. The Met Office Data is derived from model output with the permission of the Controller of Her Majesty's Stationary Office © Crown copyright. The Proudman Oceanographic Laboratory Data is derived from model outputs with the permission of the Controller of Her Majesty's Stationary Office © Crown copyright. Unauthorised reproduction infringes Crown copyright and may lead to prosecution or civil proceedings. The Licensee must ensure that it protects and does not interfere with any trade names and trademarks that are in or accompany the Met Office and Proudman Oceanographic Laboratory Data. All copies of the Met Office and Proudman Oceanographic Laboratory Data in whatever from must contain the following acknowledgement: '© Crown Copyright. All rights reserved 2008.'. 3. Law and Jurisdiction 3.1. This Licence Agreement shall be construed in accordance with and governed by English law and subject to the non-exclusive jurisdiction of the English courts.</constraints>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt></wkt>
+      <proj4></proj4>
+      <srsid>0</srsid>
+      <srid>0</srid>
+      <authid></authid>
+      <description></description>
+      <projectionacronym></projectionacronym>
+      <ellipsoidacronym></ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial dimensions="2" minx="-1094501.975499999942258" minz="0" maxx="525052.73770000005606562" maxz="0" miny="5409298.33729999978095293" crs="EPSG:4326" maxy="7089160.27170000039041042"/>
+  </extent>
+</qgis>

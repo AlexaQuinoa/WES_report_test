@@ -1,0 +1,114 @@
+---
+title: "Wave Energy Scotland Site Modelling Report"
+author: "A.K.Bulgakova"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Summary
+
+This report presents the results of GIS (geographical information system) interrogation of wave energy sites in Scotland to identify future applications and size of market for wave energy. Sites that have previously considered for wave energy installation are shown, along with a number of stressors, inlcuding conservation and protection areas, oil and gas installations, wave climate, wind installations, aquaculture sites and Scottish grid transmission infrastructure. 
+
+Initial assumptions about installation limitations have been made to estimate the total are aof suitable for installation in Scotland. These assumptions include a maximum of 100m water depth and average wave climates of <40kW/m. REWRITE THIS. 
+
+
+
+## QGIS 
+
+The analysis outlined in this report has been carried out using QGIS, an open-source cross-platform GIS application, which can contain multiple layers which represent different sources of information or depictions of sources. The functions within QGIS allows users to analyse and edit spatial data in addition to the creation and export of graphical maps. 
+
+
+```{r include = FALSE}
+
+
+# Library ----
+library(leaflet)
+library(terra)
+library(rgdal)
+library(sf)
+library(magrittr)
+library(dplyr)
+library(ggmap)
+library(htmltools)
+library(RSQLite)
+library(leaflet.providers)
+library(mapview)
+library(htmlwidgets)
+library(pandoc)
+
+# Load ----
+
+data_test <- read_sf("Ports_100km_test.geojson")
+
+
+# Set projection ----
+
+data_test <- st_transform(data_test, crs = '+proj=longlat +datum=WGS84')
+
+
+# data_test2 <- read_sf("zss/100kmPorts_wave<100m_>20kW:m_protected.gpkg")
+
+# data_test2 <- st_transform(data_test2, crs = '+proj=longlat +datum=WGS84')
+
+# Load map ----
+
+# Add polygons
+
+map <- leaflet() %>% 
+   addProviderTiles(providers$Esri.WorldTopoMap) %>% 
+   setView(lng = -4.2026458, lat = 56.4906712, zoom = 5) %>% 
+   addPolygons(data = data_test, color = "blue", stroke = 10, opacity = 0.5
+   )
+map
+
+# mapshot(map, file = "static_map.png")
+
+saveWidget(map, file = "dynamic_map.html")
+
+```
+
+```{r}
+map
+
+```
+## Wave data
+
+## Protected Areas
+
+## Scottish grid transmission
+
+## Ports
+
+## Vessel traffic
+
+## Fishing
+
+## Wind
+
+## OGTC infrastructure
+
+## Aquaculture
+
+## Discussion
+
+## Conclusions
+
+## Bibliography
+
+
+
+
+
+
+
+
+
+
+
+

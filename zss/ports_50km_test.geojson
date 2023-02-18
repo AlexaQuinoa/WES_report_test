@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "ports_50km_test",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32631" } },
+"features": [
+
+]
+}
